@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Clean Food List</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link href="css/themes/default/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>-->
+        <link href="generated/jquery.mobile.flatui.css" rel="stylesheet" type="text/css"/>        
+        <link href="css/app.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <section data-role="page" id="list" >
+            <header data-role="header" data-theme="b">
+                <img src="images/mini_logo.png" alt="" class="ui-btn-left" height="37" width="37"/>
+                <h1>Clean Food List</h1>
+                <a data-role="button" href="" data-rel="back" class="ui-btn-right" data-theme="e">Back</a>
+            </header>
+            <div data-role="content">
+                <div data-role="navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#salmon" data-theme="c"><img class="ui-responsive" src="images/s_salmon.jpg" alt=""/></a></li>                        
+                        <li><a href="#greek-salad" data-theme="c"><img src="images/s_GreekSaladwithBakedPita.jpg" alt=""/></a></li>                        
+                        <li><a href="#pork-steak" data-theme="c"><img src="images/s_PorkSteak.jpg" alt=""/></a></li>                        
+                        <li><a href="#catfish" data-theme="c"><img src="images/s_PoachedCatfishe.jpg" alt=""/></a></li>
+                        <li><a href="#crab-salad" data-theme="c"><img src="images/s_CrabLouisSalad.jpg" alt=""/></a></li>                        
+                        <li><a href="#green-chili" data-theme="c"><img src="images/s_GreenChiliHash.jpg" alt=""/></a></li>                        
+                    </ul>
+                </div><!-- /navbar -->
+            </div>            
+            <footer data-role="footer">
+                <h3>&copy;2558 EGAT</h3>
+            </footer>
+        </section>
+        <section data-role="page" id="show-calories">
+            <header data-role="header">
+                <img src="images/mini_logo.png" alt="" class="ui-btn-left" height="37" width="37"/>
+                <h1>Clean Food</h1>
+                    <a data-role="button" href="" data-rel="back" class="ui-btn-right">Back</a>
+                <div data-role="navbar">
+                <ul>
+                    <li><a href="#calories">Calories</a></li>
+                    <li><a href="#ingredient">Ingredient</a></li>
+                    <li><a href="#instruction">Instruction</a></li>
+                </ul>
+                </div><!-- /navbar -->
+            </header>
+            <div data-role="content">
+
+            </div>
+            <footer data-role="footer">
+                <h3>&copy;2558 EGAT</h3>
+            </footer>
+        </section>
+        <!-- SALMON -->
+        <section data-role="page" id="salmon">
+            <header data-role="header" data-theme="c">                
+                <h1>Recommend Dish</h1>
+                    <a data-role="button" href="" data-rel="back" class="ui-btn-right" data-theme="e">Back</a>
+                <div data-role="navbar">
+                <ul>
+                    <li><a href="#calories-salmon" data-theme="a">Calories</a></li>
+                    <li><a href="#ingredient-salmon" data-theme="b">Ingredient</a></li>
+                    <li><a href="#instruction-salmon" data-theme="g">Instruction</a></li>
+                </ul>
+                </div><!-- /navbar -->
+            </header>
+            <div data-rold="content">
+                <h1>Salmon, Radish & Shallot Roast</h1>  
+                <img src="images/salmon.jpg" alt=""/>                
+            </div>
+            <footer data-role="footer">
+                <h3>&copy;2558 EGAT</h3>
+            </footer>
+        </section>
+        <section data-role="page" id="calories-salmon">
+            <header data-role="header" data-theme="c">
+                <h1>Calories</h1>
+                    <a data-role="button" href="" data-rel="back" class="ui-btn-right" data-theme="e">Back</a>
+                <div data-role="navbar">
+                <ul>
+                    <li><a href="#calories-salmon" data-theme="a">Calories</a></li>
+                    <li><a href="#ingredient-salmon" data-theme="b">Ingredient</a></li>
+                    <li><a href="#instruction-salmon" data-theme="g">Instruction</a></li>
+                </ul>
+                </div><!-- /navbar -->
+            </header>   
+            <div data-role="content">
+                <h3>1 salmon fillet and 2/3 cup vegetables</h3>
+                <br>
+                <ul data-role="listview" class="ui-listview ui-corner-all ui-shadow">
+                    <li data-role="list-divider" data-theme="b">
+                        Calories: 244
+                    </li>
+                    <li class="ui-li ui-btn-up-a">
+                        <table>
+                            <tr>
+                                <td>Total Fat: </td>
+                                <td>11 g.</td>
+                            </tr>
+                            <tr>
+                                <td>Omega-3s: </td>
+                                <td>2,480 mg.</td>
+                            </tr>
+                            <tr>
+                                <td>Omega-6s: </td>
+                                <td>780 mg.</td>
+                            </tr>
+                            <tr>
+                                <td>Carvs: </td>
+                                <td>6 g.</td>
+                            </tr>
+                            <tr>
+                                <td>Fiber: </td>
+                                <td>1 g.</td>
+                            </tr>
+                            <tr>
+                                <td>Sugers: </td>
+                                <td>2 g.</td>
+                            </tr>
+                            <tr>
+                                <td>Protein: </td>
+                                <td>29 g.</td>
+                            </tr>
+                            <tr>
+                                <td>Sodium: </td>
+                                <td>313 mg.</td>
+                            </tr>
+                            <tr>
+                                <td>Cholesterol: </td>
+                                <td>78 mg.</td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section data-role="page" id="ingredient-salmon">
+            <header data-role="header" data-theme="c">
+                <h1>Ingredient</h1>
+                    <a data-role="button" href="" data-rel="back" class="ui-btn-right" data-theme="e">Back</a>
+                <div data-role="navbar">
+                <ul>
+                    <li><a href="#calories-salmon" data-theme="a">Calories</a></li>
+                    <li><a href="#ingredient-salmon" data-theme="b">Ingredient</a></li>
+                    <li><a href="#instruction-salmon" data-theme="g">Instruction</a></li>
+                </ul>
+                </div><!-- /navbar -->
+            </header> 
+            <div data-role="content">            
+                <ul data-role="listview" class="ui-listview ui-corner-all ui-shadow">
+                    <li data-role="list-divider" data-theme="b">
+                        Ingredient
+                    </li>
+                    <li class="ui-li ui-btn-up-a">
+                        <span>- Olive oil cooking spray</span><br>
+                        <span>- 8 shallots, halved lengthwise, roots left intact and outer layer discarded</span><br>
+                        <span>- 18 radishes, trimmed and halved lengthwise (if large, quartered)</span>
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+
+                 
+        
+    </body>
+</html>
